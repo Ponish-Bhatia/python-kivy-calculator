@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = Complex Calculator Application
 
 # (str) Package name
-package.name = myapp
+package.name = PR
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = org.PR
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -49,7 +49,7 @@ requirements = python3,kivy
 #presplash.filename = %(source.dir)s/data/presplash.png
 
 # (str) Icon of the application
-#icon.filename = %(source.dir)s/data/icon.png
+icon.filename = calcula.ico
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
